@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp"
+    tools:context=".BlankFragment">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="@font/bitwise"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:text="heading here"
+        android:id="@+id/heading"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="200dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/mono"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="introduction"
+        android:id="@+id/intro"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/mono"
+        android:textColor="@color/white"
+        android:layout_marginVertical="300dp"
+        android:textAlignment="center"
+        android:text="main text"
+        android:id="@+id/maintext"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/mono"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginVertical="350dp"
+        android:text="example"
+        android:id="@+id/example"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:text="next"
+        android:fontFamily="@font/mono"
+        android:textSize="10dp"
+        android:onClick="button"
+        />
+
+</FrameLayout>

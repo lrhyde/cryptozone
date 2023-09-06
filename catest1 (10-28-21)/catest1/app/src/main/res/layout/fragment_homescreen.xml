@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp"
+    android:id="@+id/homes"
+    tools:context=".Homescreen">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/mono"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="Now that you've finished going over the different ciphers, try out some encrypting and decrypting!" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="175dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/encrypt"
+        android:onClick="encrypt"
+        android:fontFamily="@font/bitwise"
+        android:text="encrypt"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="275dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/decrypt"
+        android:fontFamily="@font/bitwise"
+        android:onClick="decrypt"
+        android:text="decrypt"
+        />
+
+</FrameLayout>
